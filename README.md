@@ -38,11 +38,11 @@ opkg update && opkg install curl
 
 ```Shell
 #Release version - by github
-sh -c "$(curl -kfsSl --resolve raw.githubusercontent.com:443:199.232.68.133 https://raw.githubusercontent.com/juewuy/ShellClash/master/install.sh)" && source /etc/profile &> /dev/null
+sh -c "$(curl -kfsSl --resolve raw.githubusercontent.com:443:199.232.68.133 https://raw.githubusercontent.com/CaiHuan/ShellClash/master/install.sh)" && source /etc/profile &> /dev/null
 #Release version - by jsdelivrCDN
 sh -c "$(curl -kfsSl https://cdn.jsdelivr.net/gh/juewuy/ShellClash@master/install.sh)" && source /etc/profile &> /dev/null
 #Test version - by github
-sh -c "$(curl -kfsSl --resolve raw.githubusercontent.com:443:199.232.68.133 https://raw.githubusercontent.com/juewuy/ShellClash/master/install.sh)" -s 1 && source /etc/profile &> /dev/null
+sh -c "$(curl -kfsSl --resolve raw.githubusercontent.com:443:199.232.68.133 https://raw.githubusercontent.com/CaiHuan/ShellClash/master/install.sh)" -s 1 && source /etc/profile &> /dev/null
 ```
 
 ##### ~Use wget：<br>
