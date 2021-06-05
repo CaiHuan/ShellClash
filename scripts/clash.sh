@@ -4,7 +4,7 @@
 #读取配置相关
 getconfig(){
 	#服务器缺省地址
-	[ -z "$update_url" ] && update_url=https://raw.githubusercontent.com/CaiHuan
+	[ -z "$update_url" ] && update_url=https://raw.githubusercontent.com/CaiHuan/ShellClash
 	#文件路径
 	[ -z "$clashdir" ] && echo 环境变量配置有误！请重新安装脚本！
 	ccfg=$clashdir/mark
