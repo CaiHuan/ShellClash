@@ -4,7 +4,7 @@
 #读取配置相关
 getconfig(){
 	#服务器缺省地址
-	[ -z "$update_url" ] && update_url=https://cdn.jsdelivr.net/gh/juewuy/ShellClash
+	[ -z "$update_url" ] && update_url=https://raw.githubusercontent.com/CaiHuan
 	#文件路径
 	[ -z "$clashdir" ] && echo 环境变量配置有误！请重新安装脚本！
 	ccfg=$clashdir/mark
@@ -18,7 +18,7 @@ getconfig(){
 	#设置默认核心资源目录
 	[ -z "$bindir" ] && bindir=$clashdir
 	#设置默认端口及变量
-	[ -z "$mix_port" ] && mix_port=7890
+	[ -z "$mix_port" ] && mix_port=10240
 	[ -z "$redir_port" ] && redir_port=7892
 	[ -z "$db_port" ] && db_port=9999
 	[ -z "$dns_port" ] && dns_port=1053
